@@ -1,0 +1,77 @@
+body{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+#keret{
+    margin: 25px 0 50px 0;
+    width: 595px;
+    border: 5px solid #008080;
+    border-radius: 30px;
+    background-color: #40E0D0;
+    box-shadow: 8px 8px 8px #008B8B;
+    text-align: center;
+}
+
+label{
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#keret *{
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+input[type="range"]{
+    width: 500px;
+    margin-left: 30px;
+}
+
+span{
+    padding-left: 10px;
+}
+
+#rb{
+    margin-top: 30px;
+} */
