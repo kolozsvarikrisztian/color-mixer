@@ -8,10 +8,9 @@ body{
     margin: 0;
 }
 
-
-#keret{
+#border{
     margin: 25px 0 50px 0;
-    width: 595px;
+    width: 450px;
     border: 5px solid #008080;
     border-radius: 30px;
     background-color: #40E0D0;
@@ -24,54 +23,7 @@ label{
     padding-right: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#keret *{
-    text-align: center;
-}
-
-label{
-    font-weight: bold;
-    font-size: 20px;
-    padding-right: 10px;
-}
-
 input[type="range"]{
-    width: 500px;
-    margin-left: 30px;
+    width: 350px;
+    margin-left: 10px;
 }
-
-span{
-    padding-left: 10px;
-}
-
-#rb{
-    margin-top: 30px;
-} */
