@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <title>Színkeverő pult</title>
     <link rel="stylesheet" href="style.css">
-    <script src="rgb.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
-    <div id="keret">
+    <div id="border">
         <h1>Színkeverő pult</h1>
-        <p><label for="r">R</label><input type="range" name="r" id="piros" min="0" max="255" value="0" onchange="hatter()"><span id="red">0</span></p>
-        <p><label for="g">G</label><input type="range" name="g" id="zold" min="0" max="255" value="0" onchange="hatter()"><span id="green">0</span></p>
-        <p><label for="b">B</label><input type="range" name="b" id="kek" min="0" max="255" value="0" onchange="hatter()"><span id="blue">0</span></p>
-        <!-- <div><label for="rgb">rgb</label><input type="radio" name="color" id="rgb" onchange="hatter()"><br></div> -->
-        <div><label for="hex">hex</label><input type="radio" name="color" id="hex" onchange="hatter()" checked></div>
+        <p><label for="r">R</label><input type="range" name="r" id="piros" min="0" max="255" value="0" onchange="bckgrnd()"><span id="red">0</span></p>
+        <p><label for="g">G</label><input type="range" name="g" id="zold" min="0" max="255" value="0" onchange="bckgrnd()"><span id="green">0</span></p>
+        <p><label for="b">B</label><input type="range" name="b" id="kek" min="0" max="255" value="0" onchange="bckgrnd()"><span id="blue">0</span></p>
+        <div><label for="rgb">RGB színkód</label><input type="radio" name="color" id="rgb" onchange="bckgrnd()"><br></div>
+        <div><label for="hex">Hexadecimális színkód</label><input type="radio" name="color" id="hex" onchange="bckgrnd()" checked></div>
         <p>Aktuális háttérszín: <input type="text" name="text" id="text" value="#000000"></p>
     </div>
 </body>
